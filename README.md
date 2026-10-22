@@ -1,8 +1,8 @@
-\# Linux NFS Shared Storage Server
+# Linux NFS Shared Storage Server
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,19 +14,17 @@ The objective is to understand Linux server administration, network file sharing
 
 
 
-\## Architecture
+## Architecture
 
-
-
-\* \*\*NFS Server:\*\* Red Hat Enterprise Linux (RHEL)
-
-\* \*\*NFS Client:\*\* Ubuntu Linux
-
-\* \*\*Shared Directory:\*\* `/nfs-share`
-
-\* \*\*Client Mount Point:\*\* `/mnt/nfs1-client`
-
-\* \*\*Protocol:\*\* Network File System (NFS)
+- **NFS Server:** Red Hat Enterprise Linux (RHEL)
+  
+- **NFS Client:** Ubuntu Linux
+  
+- **Shared Directory:** `/nfs_share`
+  
+- **Client Mount Point:** `/mnt/nfs_share`
+  
+- **Protocol:** Network File System (NFS)
 
 
 
@@ -34,7 +32,7 @@ See the `architecture/` directory for the project architecture diagram, if inclu
 
 
 
-\## Technologies Used
+## Technologies Used
 
 
 
@@ -134,7 +132,7 @@ Replace `SERVER\_IP` with the actual IP address of your NFS server.
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
@@ -166,7 +164,7 @@ The structure above is the intended layout; include only files and directories t
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 
 
@@ -190,7 +188,7 @@ The structure above is the intended layout; include only files and directories t
 
 
 
-\## Validation and Evidence
+## Validation and Evidence
 
 
 
@@ -218,7 +216,7 @@ Only mark a test as successful after verifying it in your lab.
 
 
 
-\## Learning Outcomes
+## Learning Outcomes
 
 
 
@@ -226,7 +224,7 @@ This project provides hands-on practice with Linux storage sharing and server ad
 
 
 
-\## Author
+## Author
 
 
 
